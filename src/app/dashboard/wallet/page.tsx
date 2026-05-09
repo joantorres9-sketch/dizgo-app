@@ -137,7 +137,7 @@ export default function WalletPage() {
 
   function agregarMovimiento() {
     if (!nuevoCF.concepto || !nuevoCF.monto) return
-    setFlujoCaja(prev => [...prev, { ...nuevoCF, monto: Number(nuevoCF.monto), fuente: 'manual' }])
+    setFlujoCaja(prev => [...prev, { ...nuevoCF, tipo: nuevoCF.tipo as 'ingreso' | 'egreso', monto: Number(nuevoCF.monto), fuente: 'manual' as 'manual' }])
     setNuevoCF({ concepto:'', tipo:'egreso', monto:0, fecha:'', categoria:'otros' })
   }
 
