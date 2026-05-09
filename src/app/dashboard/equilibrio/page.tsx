@@ -259,7 +259,7 @@ export default function EquilibrioPage() {
               <div style={{ fontSize:'12px', color:'#8B96A8', lineHeight:'1.6' }}>
                 {pedidosActuales >= pe_pedidos
                   ? `🎉 ¡Ya superaste el punto de equilibrio! Ganancia adicional: $${((pedidosActuales - pe_pedidos) * ganancia_pond).toLocaleString('es-CO')}`
-                  : `Necesitas ${pedidosActuales_necesarios || pedidos_necesarios} pedidos más en ${dias_restantes} días → ${pedidos_dia_necesarios}/día`}
+                  : `Necesitas ${pedidos_necesarios} pedidos más en ${dias_restantes} días → ${pedidos_dia_necesarios}/día`}
               </div>
             </div>
           </div>
