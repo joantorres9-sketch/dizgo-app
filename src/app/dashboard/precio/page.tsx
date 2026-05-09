@@ -118,14 +118,14 @@ export default function PrecioPage() {
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
               {[
                 { label: 'PVP (Precio de venta)', field: 'pvp' as keyof Producto, prefix: '$' },
-                { label: 'Costo Proveedor', field: 'costo_proveedor' as keyof Produto, prefix: '$' },
-                { label: 'Costo Flete Envío', field: 'costo_flete_envio' as keyof Produto, prefix: '$' },
-                { label: '% Devolución', field: 'pct_devolucion' as keyof Produto, prefix: '%' },
-                { label: 'Fulfillment', field: 'costo_fulfillment' as keyof Produto, prefix: '$' },
-                { label: '% Publicidad', field: 'pct_publicidad' as keyof Produto, prefix: '%' },
-                { label: '% Comisión plataforma', field: 'pct_comision' as keyof Produto, prefix: '%' },
-                { label: '% Pasarela de pago', field: 'pct_pasarela' as keyof Produto, prefix: '%' },
-                { label: 'CF por pedido', field: 'cf_por_pedido' as keyof Produto, prefix: '$' },
+                { label: 'Costo Proveedor', field: 'costo_proveedor' as keyof Producto, prefix: '$' },
+                { label: 'Costo Flete Envío', field: 'costo_flete_envio' as keyof Producto, prefix: '$' },
+                { label: '% Devolución', field: 'pct_devolucion' as keyof Producto, prefix: '%' },
+                { label: 'Fulfillment', field: 'costo_fulfillment' as keyof Producto, prefix: '$' },
+                { label: '% Publicidad', field: 'pct_publicidad' as keyof Producto, prefix: '%' },
+                { label: '% Comisión plataforma', field: 'pct_comision' as keyof Producto, prefix: '%' },
+                { label: '% Pasarela de pago', field: 'pct_pasarela' as keyof Producto, prefix: '%' },
+                { label: 'CF por pedido', field: 'cf_por_pedido' as keyof Producto, prefix: '$' },
               ].map((item, i) => (
                 <div key={i} style={{ gridColumn: i === 0 ? '1/-1' : 'auto' }}>
                   <label style={{ display: 'block', fontSize: '11px', color: '#5A6478', marginBottom: '4px' }}>{item.label}</label>
