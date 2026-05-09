@@ -14,6 +14,8 @@ const NAV = [
   ]},
   { group:'HACER', color:'#2DD4A0', items:[
     { href:'/dashboard/pedidos', icon:'📦', label:'Pedidos' },
+    { href:'/dashboard/whatsapp', icon:'💬', label:'WhatsApp' },
+    { href:'/dashboard/logistica', icon:'🚚', label:'Logística' },
     { href:'/dashboard/wallet', icon:'💳', label:'Wallet Dropi' },
   ]},
   { group:'VERIFICAR', color:'#F5A623', items:[
