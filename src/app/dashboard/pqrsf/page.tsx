@@ -183,7 +183,7 @@ export default function PQRSFPage() {
               <div style={{ width:'1px', background:'rgba(255,255,255,0.08)', margin:'0 4px' }} />
               {['TODOS','P','Q','R','S','F'].map(t => (
                 <button key={t} onClick={() => setFiltroTipo(t)}
-                  style={{ padding:'5px 10px', borderRadius:'7px', border:'none', cursor:'pointer', fontSize:'11px', fontWeight:'600',
+                  style={{ padding:'5px 10px', borderRadius:'7px', cursor:'pointer', fontSize:'11px', fontWeight:'600',
                     background: filtroTipo === t ? (t === 'TODOS' ? '#F5A623' : `${TIPO_INFO[t]?.color || '#F5A623'}22`) : 'rgba(255,255,255,0.05)',
                     color: filtroTipo === t ? (t === 'TODOS' ? '#0A0D14' : TIPO_INFO[t]?.color || '#F5A623') : '#8B96A8',
                     border: filtroTipo === t && t !== 'TODOS' ? `1px solid ${TIPO_INFO[t]?.color}44` : '1px solid transparent' }}>
