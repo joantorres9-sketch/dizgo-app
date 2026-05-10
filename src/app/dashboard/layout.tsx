@@ -17,14 +17,16 @@ const NAV = [
     { href:'/dashboard/whatsapp', icon:'💬', label:'WhatsApp' },
     { href:'/dashboard/logistica', icon:'🚚', label:'Logística' },
     { href:'/dashboard/pauta', icon:'📢', label:'Pauta Meta/TikTok' },
-    { href:'/dashboard/pqrsf', icon:'📬', label:'PQRSF' },
     { href:'/dashboard/wallet', icon:'💳', label:'Wallet Dropi' },
+    { href:'/dashboard/pqrsf', icon:'📬', label:'PQRSF' },
   ]},
   { group:'VERIFICAR', color:'#F5A623', items:[
-    { href:'/dashboard/resultados', icon:'📈', label:'P&G Resultados' },
-    { href:'/dashboard/alertas', icon:'🚨', label:'Alertas' },
+    { href:'/dashboard/resultados', icon:'📈', label:'Dashboard P&G' },
+    { href:'/dashboard/pyg', icon:'💰', label:'P&G Resultados' },
+    { href:'/dashboard/embudo', icon:'🔬', label:'Embudo de Tráfico' },
   ]},
   { group:'ACTUAR', color:'#9B6BFF', items:[
+    { href:'/dashboard/alertas', icon:'🚨', label:'Alertas & Decisiones' },
     { href:'/dashboard/formacion', icon:'🎓', label:'Formación' },
   ]},
 ]
