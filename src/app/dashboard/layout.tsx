@@ -17,6 +17,7 @@ const NAV = [
     { href:'/dashboard/whatsapp', icon:'💬', label:'WhatsApp' },
     { href:'/dashboard/logistica', icon:'🚚', label:'Logística' },
     { href:'/dashboard/pauta', icon:'📢', label:'Pauta Meta/TikTok' },
+    { href:'/dashboard/pqrsf', icon:'📬', label:'PQRSF' },
     { href:'/dashboard/wallet', icon:'💳', label:'Wallet Dropi' },
   ]},
   { group:'VERIFICAR', color:'#F5A623', items:[
